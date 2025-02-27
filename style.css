@@ -1,0 +1,263 @@
+body{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logoicon{
+    width: 57px;
+    height: 33px;
+}
+.header{
+    display: flex;
+}
+#thing{
+    margin-left: 50px;
+    margin-top: 7px;
+    font-weight: bold;
+    color: #002f34;
+    font-size: 17px;
+}
+#thing:hover{
+    color: #46aca9;
+}
+.head-bar{
+    display: flex;
+}
+.main{
+    background-color: white;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    color: #002f34;
+    display: flex;
+}
+
+#map{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+#locat{
+    width: 200px;
+    height: 55px;
+    font-size: 17px;
+    border: none;
+    margin-left: 5px;
+}
+
+#down{
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.main2{
+    background-color: white;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 800px;
+    height: 60px;
+    color: #002f34;
+    margin-left: 20px;
+    display: flex;
+}
+#search{
+    width: 770px;
+    height: 55px;
+    font-size: 17px;
+    border: none;
+    margin-left: 15px;
+}
+#pq{
+    margin-top: 15px;
+    margin-left: -20px;
+    cursor: pointer;
+    background-color: #002f34;
+    color: white;
+    padding: 18px;
+    margin-top: -1px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+.main3{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #002f34;
+    font-weight: bold;
+}
+#sell{
+    margin-left: 20px;
+    border: 3px solid #002f34;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#login{
+    text-decoration: underline 2px solid #002f34;
+}
+#l:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-bottom-bar{
+    display: flex;
+    color: #002f34;
+}
+.header-bottom-bar p{
+    margin-right: 30px;
+}
+#navbar-menu-cat{
+    font-weight: bold;
+}
+#arrowicon{
+    font-size: small;
+}
+.header-bottom-bar p:hover{
+    color: #46aca9;
+    cursor: pointer;
+}
+.cat-area{
+    display: flex;
+    justify-content: flex-start;
+}
+#cate{
+    font-weight: bold;
+    color: #002f34;
+    font-size: 25px;
+}
+
+.cat-area{
+    padding: 0 80px;
+    margin-top: 10px;
+}
+
+.cat-card{
+    max-width: 150px;
+    display: inline-block; 
+    font-weight: bold;
+    margin: 20px 20px;
+    margin-left: 0;
+    padding-right: 10px;
+}
+.cat-card > img{
+    width: 90px;
+}
+
+#text{
+    margin-left: 16px;
+    color: #002f34;
+}
+#text:hover{
+    color: #46aca9;
+    cursor: pointer;
+}
+
+
+
+
+
+#mp{
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+
+#ss{
+    margin-left: 150px;
+}
+.table{
+    background-color: rgb(237, 240, 242);
+    border: 1px solid rgb(123, 123, 123);
+    width: 1500px;
+    height: 190px;
+    font-size: small;
+    margin-left: -39px;
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-right: 240px;
+    margin-top: 20px;
+}
+td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(143, 143, 143);
+}
+
+#th{
+    font-weight: bold;
+    color: #002f34;
+}
+
+
+td:hover{
+    color:rgb(12, 87, 87);
+}
+
+.ll{
+    background-color:rgb(0, 39, 39);
+    width: 1500px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: -39px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#ll{
+   margin-right: 10px;
+   font-size: small;
+   justify-content: end;
+   margin-top: 20px;
+}
+
+.detail{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #002f34;
+    margin-left: 20px;
+}
+#price{
+    font-weight: bold;
+    font-size: large;
+}
+.flex{
+    display: flex;
+}
+#heart{
+    margin-left: 150px;
+    font-size: large;
+}
+#heart:hover{
+    color: rgb(221, 24, 24);
+}
+#mpname{
+    font-weight: 500;
+    margin-top: 6px;
+}
+#time{
+    margin-top: -15px;
+}
+.place{
+    color: rgb(109, 109, 109);
+    margin-top: 15px;
+}
+.sell{
+    border: 1px solid rgb(168, 168, 168);
+    padding: 0;
+    border-radius: 5px;
+}
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
